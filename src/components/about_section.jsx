@@ -48,19 +48,16 @@ const AboutSection = () => {
           At DPS Narhan, we believe that education is not just about acquiring knowledge but also about developing a strong character, fostering creativity, and instilling values that shape responsible and compassionate individuals.
           {showMoreMessage && (
             <>
-              Our dedicated faculty works tirelessly to create a learning environment that nurtures curiosity and encourages innovation.
-              We are committed to providing our students with the tools and opportunities they need to excel academically and personally.
-              I urge our students to embrace challenges, stay curious, and strive for excellence in all aspects of life.
-            </>
+             I want to express my sincere gratitude for the dedication and hard work of our students, 
+             staff, and families  </>
           )}
         </p>
         <div className="px-6 pb-4">
-          <button
-            onClick={() => setShowMoreMessage(!showMoreMessage)}
-            className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+          <NavLink to = "/principal"
+          className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
           >
-            {showMoreMessage ? "SHOW LESS" : "READ MORE"}
-          </button>
+            Read more
+          </NavLink>
         </div>
       </div>
     </div>

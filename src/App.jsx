@@ -10,6 +10,7 @@ import About from "./template/About";
 import Academic from "./template/Academic";
 import Admission from "./template/Admission";
 import Sonu from "./template/Sonu";
+import Principal from "./template/Principal";
 import Home from "./template/Home";
 import Achievement from "./template/Achievement";
 import Gallery from "./template/Gallery";
@@ -22,6 +23,7 @@ function App() {
       {/* Routing */}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/principal" element={<Principal/>}/>
         <Route path="/about" element={<About />} />
         <Route path="/academic" element={<Academic />} />
         <Route path="/admission" element={<Admission />} />
